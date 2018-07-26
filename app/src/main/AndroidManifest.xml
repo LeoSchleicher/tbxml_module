@@ -1,0 +1,22 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="ru.schleicher.tbxml_app">
+
+    <application
+        android:allowBackup="true"
+        android:label="tbxml"
+        android:name="ru.schleicher.tbxml_app.MyApplication"
+        android:theme="@android:style/Theme.Holo.Light">
+
+        <activity
+            android:name="ru.schleicher.tbxml_app.MainActivity"
+            android:label="tbxml_jni_test"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+
+    </application>
+</manifest>
